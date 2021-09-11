@@ -1,0 +1,14 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+indent_style = space
+indent_size = 4
+
+[{*.java, *kt}]
+ij_continuation_indent_size = 4
+
+[{*.yml, *.yaml, *.feature}]
+indent_size = 2
