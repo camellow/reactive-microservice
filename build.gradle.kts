@@ -29,6 +29,7 @@ dependencies {
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("io.projectreactor:reactor-test")
 	testImplementation("org.springframework.kafka:spring-kafka-test")
+	testRuntimeOnly("io.r2dbc:r2dbc-h2")
 }
 
 tasks.withType<KotlinCompile> {
